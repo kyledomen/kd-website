@@ -1,0 +1,14 @@
+.step-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 130%;
+}
+
+.step-details {
+    font-family: 'Karla', sans-serif;
+    font-size: 80%;
+    line-height: 185%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 8%;
+    padding-right: 5%;
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800|Karla');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(20, 20, 20);
+}
+
+.title {
+    font-size: 250%;
+    color: rgb(20, 20, 20);
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.column-main {
+    font-family: 'Karla', sans-serif;
+    font-size: 125%;
+    padding-left: 4%;
+}
+
+.main-text {
+    margin-bottom: 4%;
+    line-height: 185%;
+}
+
+.column-small {
+    font-size: 125%;
+    background-color: rgb(250, 250, 250);
+}
+
+.links {
+    padding-top: 10%;
+    padding-left: 13%;
+}
+
+.links li {
+    padding-bottom: 10%;
+}
+
+.links a {
+    color: rgb(109, 125, 126);
+}
+
+.links a:hover {
+    color: rgb(20, 20, 20);
+}
+
+.column-main img {
+    margin-bottom: 3%;
+    padding-right: 3%;
+}
