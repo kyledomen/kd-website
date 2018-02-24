@@ -1,0 +1,48 @@
+.price-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 120%;
+    margin-bottom: 3%;
+}
+
+.shipping-container {
+    margin-top: 6.5%;
+}
+
+.shipping-details {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 100%;
+    line-height: 185%;
+    margin-top: 4%;
+}
+
+.column-container {
+    font-size: 155%;
+    margin-bottom: 2%;
+    margin-left: 9%;
+}
+
+.column-container ul {
+    font-family: 'Karla', sans-serif;
+    font-size: 80%;
+    margin-top: 4%;
+    margin-left: 12%;
+}
+
+.column-container li {
+    display: list-item;
+    list-style-type: circle;
+    margin-bottom: 2.5%;
+    padding-right: 2%;
+}
+
+.astricks {
+    font-family: 'Karla', sans-serif;
+    font-size: 125%;
+    margin-left: 4.5%;
+    margin-bottom: 3%;
+}
+
+.space-div {
+    margin-top: 7%;
+}

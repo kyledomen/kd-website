@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:800|Karla');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800|Karla:400,700');
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -25,7 +25,7 @@ body {
 
 .column-small {
     font-size: 125%;
-    background-color: rgb(250, 250, 250);
+    background-color: rgb(247, 247, 247);
 }
 
 .links {
