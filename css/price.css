@@ -1,3 +1,7 @@
+.price-container {
+    margin-top: 3.5%;
+}
+
 .price-title {
     font-family: 'Open Sans', sans-serif;
     font-size: 120%;
@@ -39,6 +43,7 @@
 .astricks {
     font-family: 'Karla', sans-serif;
     font-size: 125%;
+    font-weight: 700;
     margin-left: 4.5%;
     margin-bottom: 3%;
 }
