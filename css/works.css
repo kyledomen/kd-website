@@ -12,3 +12,8 @@
     margin-left: 8%;
     padding-right: 5%;
 }
+
+.step-details a {
+    text-decoration: underline;
+    color: rgb(20, 20, 20);
+}
