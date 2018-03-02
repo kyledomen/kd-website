@@ -16,3 +16,46 @@
     font-size: 190%;
     color: rgb(39, 174, 96);
 }
+
+.pictures {
+    margin-top: 5%;
+}
+
+.picture-element {
+    display: inline-block;
+    margin-right: 2%;
+    margin-bottom: 4%;
+}
+
+.picture-element img {
+    width: 350px;
+}
+
+.picture-subtitle {
+    font-size: 140%;
+    margin-top: 2%;
+}
+
+.picture-table {
+    font-family: 'Karla', sans-serif;
+    border-collapse: collapse;
+    font-size: 120%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.picture-table td, .picture-table t {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    padding-right: 45px;
+}
+
+.picture-table th {
+    font-weight: 700;
+    padding-bottom: 4%;
+}
+
+.price {
+    text-align: right;
+}
