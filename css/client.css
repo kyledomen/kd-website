@@ -56,6 +56,15 @@
     padding-bottom: 4%;
 }
 
+.picture-table tr:nth-child(even) {
+    background-color: rgb(247, 247, 247);
+}
+
 .price {
     text-align: right;
+}
+
+.total {
+    text-align: right;
+    color: rgb(39, 174, 96);
 }
