@@ -41,7 +41,7 @@
     border-collapse: collapse;
     font-size: 120%;
     margin-top: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 18%;
 }
 
 .picture-table td, .picture-table t {
@@ -58,6 +58,15 @@
 
 .picture-table tr:nth-child(even) {
     background-color: rgb(247, 247, 247);
+}
+
+.picture-table a {
+    color: rgb(20, 20, 20);
+    text-decoration: underline;
+}
+
+.picture-table br {
+    font-size: 120%;
 }
 
 .price {
