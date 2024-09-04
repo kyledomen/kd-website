@@ -1,9 +1,0 @@
-.contact-info {
-    margin-bottom: 2%;
-}
-
-.search-bar {
-    font-family: 'Karla', sans-serif;
-    font-size: 105%;
-    padding: 1%;
-}

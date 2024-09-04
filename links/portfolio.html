@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>kd photography</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/portfolio.css">
+    </head>
+    <body>
+        <section class="section">
+            <div class="container">
+                <div class="title">
+                    @kyledomen photography
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <div class="column-small">
+                        <div class="links">
+                            <ul>
+                                <li><a href="../index.html">home</a></li>
+                                <li><a href="#" style="color: rgb(20, 20, 20)">portfolio</a></li>
+                                <li><a href="works.html">how it works</a></li>
+                                <li><a href="pricing.html">pricing</a></li>
+                                <li><a href="faq.html">faq</a></li>
+                                <li><a href="contact.html">contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column is-two-thirds">
+                    <div class="column-main">
+                        <div class="portfolio-container">
+                            <div class="portfolio-main">
+                                welcome to my portfolio!
+                            </div>
+
+                        </div>
+
+                        <div class="description-container">
+                            <div class="description">
+                                My cameras, lenses, and strobes are the best in the industry. This guarantees realistic product shots that are super sharp, color balanced and properly lit. I never use light tents or boxes but use custom lighting techniques and styles to fit each product.
+                            </div>
+
+                            <div class="description">Each photo in this portfolio was photographed and edited 100% in-house from my studio. All photos shown here are my most popular images from actual client projects for use in their Amazon marketplace, online stores, and more.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="space-div"></div>
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <img src="../imgs/backshot.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="../imgs/main.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="../imgs/placement.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="../imgs/final_watermark.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="../imgs/top-side-angle.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="../imgs/keltner_kitchen.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="../imgs/keltner_bathroom.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="../imgs/third.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="../imgs/floating-01.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="../imgs/lifestyle.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="../imgs/doublevertical.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="../imgs/belt.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="../imgs/closeup.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                    <image src="../imgs/makeup_water.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="../imgs/handle.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="../imgs/leakproof-01.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="../imgs/washable-01.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="../imgs/features-01.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="../imgs/makeup_rosegarden.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="../imgs/makeup_lifestyle.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides fade">
+                  <img src="../imgs/dishes.jpg" style="width:100%">
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </div>
+            <br>
+        </div>
+
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+            }
+        </script>
+    </body>
+</html>

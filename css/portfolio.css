@@ -1,0 +1,120 @@
+.portfolio-container {
+    margin-top: 4.5%;
+}
+
+.portfolio-main {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 120%;
+    margin-bottom: 3%;
+}
+
+.description-container {
+    margin-top: 4%;
+}
+
+.description {
+    font-family: 'Karla', sans-serif;
+    font-size: 100%;
+    line-height: 185%;
+    margin-top: 4%;
+}
+
+.column-container {
+    font-size: 155%;
+    margin-bottom: 2%;
+    margin-left: 9%;
+}
+
+.column-container ul {
+    font-family: 'Karla', sans-serif;
+    font-size: 80%;
+    margin-top: 4%;
+    margin-left: 12%;
+}
+
+.column-container li {
+    display: list-item;
+    list-style-type: circle;
+    margin-bottom: 2.5%;
+    padding-right: 2%;
+}
+
+.astricks {
+    font-family: 'Karla', sans-serif;
+    font-size: 125%;
+    font-weight: 700;
+    margin-left: 4.5%;
+    margin-bottom: 3%;
+}
+
+.space-div {
+    margin-top: 7%;
+}
+
+.mySlides {display: none;}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 48%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin: -10%;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.2);
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
